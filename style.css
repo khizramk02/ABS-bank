@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+.topper{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    
+}
+
+#date{
+    padding-left: 8%;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    font-size: large;
+    font-weight: bold;
+   
+}
+.float a{
+    text-decoration: none;
+    color: black;
+}
+
+.pad{
+    padding: 30px;
+
+    border-right: 1px solid black;
+}
+#login{
+    background-color: #343a40;
+    padding: 6px;
+    
+    padding-right: 10px;
+
+}
+.float{
+    float: right;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+nav li{
+    padding: 3px;
+}
+nav li:hover , .float a:hover{
+    background-color: black;
+    text-decoration: underline;
+    border: 2px solid #343a40;
+    border-radius: 25px;
+}
+
+ .justify-content-end{
+    display: flex; 
+    justify-content: end;
+    
+ }
+ marquee{
+     background-color: black;
+     color: white;
+     width: 100%;
+     height: auto;
+ }
+ .margin{
+    background-color: black;
+    color: white;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     align-self: center;
+ }
+ .center{
+     display: flex;
+     justify-content: center;
+ }
+ .log{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+ }
+ .log:hover{
+     background-color: #343a40;
+     color: white;
+     text-decoration: underline;
+ }
+ .color{
+    color: black !important;
+ }
+ .btn-me{
+     border: 1px solid #343a40;
+     background-color: #343a40 !important;
+     color: white !important;
+ }
+ .carousel img{
+     width: 100vw;
+ }
+
+ .doing-div {
+    background: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 5px 10px 5px 2px black;
+}
+.head{
+    padding: 50px 0 20px 0;
+    color: white;
+    text-decoration: underline;
+}
+.footer h5{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.doing-div h5{
+    color: black;
+    text-decoration: none;
+}
+#socialmedia h2{
+    padding: 50px 0 20px 0;
+}
+#social-media{
+    font-size: 70px;
+    text-align: center;
+}
+#social-media a{
+    padding: 30px;
+}
+.footer{
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0 30px 0;
+    height: 30%;
+}
+.footer li{
+    padding: 5px;
+    list-style-type: none;
+}
+.copyright{
+    font-weight: bold;
+    
+}
+.font{
+    color: white; 
+    
+}
+.space{
+    margin: 20px;
+
+}
+.container2 {
+    position: relative;
+    color: white;
+  }
+
+  .text{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+#credit.container2{
+    color: black;
+}
+
+
+
+#saving{
+    background-image: url("images/saving-personal2.jpg");
+    color: white;
+    font-size: 25px;
+    padding: 30px;
+    justify-content: center;
+}
+#credit{
+    background-image: url("images/credit-personal.jpg");
+    color: black;
+    font-size: 25px;
+    padding: 30px;
+    justify-content: center;
+}
+
+#current{
+    background-image: url("images/current-personal.jpg");
+    color: black;
+    font-size: 25px;
+    padding: 30px;
+    justify-content: center;
+}
+#loan{
+    background-image: url("images/car.jpg");
+    color: black;
+    font-size: 25px;
+    padding: 30px;
+    justify-content: center;
+}
+
+#islamic h1{
+    padding: 30px;
+    background-color: #343a40;
+    color:white;
+    
+}
+#islamic li{
+    list-style-type: none;
+    padding: 8px;
+    color: red;
+    
+}
+#islamic li:hover{
+    color: darkred;
+    
+}
+
+.mailcolor{
+    background-color: green;
+    text-align: center;
+    padding: 0px;
+    color: whitesmoke;
+}
+#about{
+    padding: 25px;
+    justify-content: center;
+}
+#management span{
+    color: darkred;
+}
+
+#info h1{
+    padding: 30px;
+    background-color: #343a40;
+    color:white;
+    
+}
+#info h4{
+    color: green;
+    font-size: 23px;
+    
+}
+
+#info li:hover{
+    color: darkred;
+    
+}
+#mail{
+    padding-top: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    div.justify-content-end{
+        display: flex;
+        justify-content: flex-start;
+    }
+    div.center{
+        display: flex;
+     justify-content: start;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #ways{font-size: 28px; text-align: center;}
+    #islamic h1{font-size: 25px;}
+    #current h1{font-size: 25px; font-weight: bold;}
+    #current p{font-size: 17px;}
+    #saving h1{font-size: 25px; font-weight: bold;}
+    #saving p{font-size: 17px;}
+    #credit h1{font-size: 25px; font-weight: bold;}
+    #credit p{font-size: 17px;}
+    #loan h1{font-size: 25px; font-weight: bold;}
+    #loan p{font-size: 17px;}
+    
+}
+@media only screen and (max-width: 670px) {
+    #social-media{font-size: 28px;}
+    #social-media h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    #date{
+        font-size: 10.5px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+    #date{font-size: 15px;}
+    #webster{
+        display: flex;
+        float: left;
+    }
+}
+@media only screen and (max-width: 460px) {
+    #social-media a{font-size: 25px;
+    padding: 15px;}
+    #social-media{font-size: 28px;}
+    #social-media h2{
+        font-size: 28px;
+        text-align: center;
+    }
+}
